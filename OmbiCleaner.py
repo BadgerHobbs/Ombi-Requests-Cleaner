@@ -1,4 +1,5 @@
 import sqlite3
+import time
 
 try:
     # Get all movies currently within plex
@@ -71,3 +72,5 @@ try:
 except Exception as e:
     print(e)
     pass
+
+# time.sleep(seconds)
